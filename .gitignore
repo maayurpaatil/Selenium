@@ -1,0 +1,9 @@
+eclipse-workspace/.metadata/
+.metadata/
+eclipse-workspace/Flipkart_Test/target/classes/META-INF/
+eclipse-workspace/Flipkart_Test/target/maven-archiver/pom.properties
+eclipse-workspace/Flipkart_Test/target/maven-status/
+*.prefs
+*.project
+*.jar
+*.txt
