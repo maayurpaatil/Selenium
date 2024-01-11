@@ -1,2 +1,2 @@
 # Selenium
-It is used for selenium practice
+It is used for selenium practice test
