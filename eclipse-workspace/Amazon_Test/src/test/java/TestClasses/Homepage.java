@@ -1,26 +1,18 @@
 package TestClasses;
 
-import org.openqa.selenium.WebDriver;
-
 import org.testng.annotations.Test;
 
-import UtilityMethods.CommonMethods;
+import PagesObjects.HomepageObjects;
+import UtilityMethods.BaseClass;
 
-public class Homepage extends CommonMethods {
+public class Homepage extends BaseClass{
+
 	
-	public Homepage(WebDriver driver) {
-		super(driver);
-		// TODO Auto-generated constructor stub
-	}
-
-	private static WebDriver driver;
 	
 	 @Test
-	public static void main12(){
-		driver=Initialization(); 
-		driver.get("https://www.google.com/");
-		System.out.println( driver.getTitle());
-		driver.close();
+	public void main12(){
+		 HomepageObjects Hp=new HomepageObjects(driver);
+		 Hp.GetTitle();
 	}
 
 }
