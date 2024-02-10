@@ -1,2 +1,2 @@
 # Selenium
-It is used for selenium practice testhhgasfasf
+It is used for selenium practice
