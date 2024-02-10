@@ -29,7 +29,6 @@ public class BaseClass extends OneTimeSetup
 	
 	public static WebDriver driver;
 	
-	
 	 /*
 		 * options.addArguments("test-type");
 		 * options.addArguments("window-size=1920,1080");
@@ -63,7 +62,7 @@ public class BaseClass extends OneTimeSetup
 		}
 
 	}
-	public static void takeScreenshotAtEndOfTest() throws IOException 
+	public static void TakeScreenshotAtEndOfTest() throws IOException 
 	{
 		TakesScreenshot ScreenShot=(TakesScreenshot)driver;
 		/*Get a screenshot using getScreenshotAs method*/
@@ -72,7 +71,6 @@ public class BaseClass extends OneTimeSetup
 		File DestFile=new File(System.getProperty("user.dir") + "/screenshots/" + System.currentTimeMillis() + ".png");
 		/*Copy file at destination*/
 		FileUtils.copyFile(ScreenShotFile, DestFile);
-		
 	}
 	
 	public static WebElement WaitUntillExpectedConditions(String Xpath,boolean IsClickable,boolean IsVisible,boolean IsPresent)
