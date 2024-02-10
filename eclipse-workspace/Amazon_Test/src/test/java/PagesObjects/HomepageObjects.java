@@ -49,9 +49,9 @@ public class HomepageObjects {
 	
 	
 
-	public  void GetTitle() {
+	public  String GetTitle() {
 		String Title= ldriver.getTitle();
-		System.out.println(Title);
+		return Title;
 	}
 
 	
